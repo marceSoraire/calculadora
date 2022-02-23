@@ -58,7 +58,8 @@ function comenzar() {
     reset.onclick = function(e) {
         resetear();
     }
-
+    
+    // operadores
     sumar.onclick = function(e) {
         primerOpcion = resultado.textContent;
         operador = "+";
